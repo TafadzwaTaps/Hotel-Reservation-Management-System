@@ -1,6 +1,6 @@
 ﻿namespace Hotel_Reservation_Management_System
 {
-    partial class Register
+    partial class User_Dashboard
     {
         /// <summary>
         /// Required designer variable.
@@ -30,13 +30,13 @@
         {
             SuspendLayout();
             // 
-            // Register
+            // User_Dashboard
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1072, 702);
-            Name = "Register";
-            Text = "Register";
+            ClientSize = new Size(1350, 721);
+            Name = "User_Dashboard";
+            Text = "User_Dashboard";
             ResumeLayout(false);
         }
 

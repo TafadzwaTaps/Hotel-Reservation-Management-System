@@ -1,6 +1,6 @@
-﻿namespace Hotel_Reservation_Management_System
+﻿namespace Hotel_Reservation_Management_System.Admin
 {
-    partial class Register
+    partial class User_Management
     {
         /// <summary>
         /// Required designer variable.
@@ -28,16 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            SuspendLayout();
-            // 
-            // Register
-            // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1072, 702);
-            Name = "Register";
-            Text = "Register";
-            ResumeLayout(false);
+            this.components = new System.ComponentModel.Container();
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Text = "User_Management";
         }
 
         #endregion

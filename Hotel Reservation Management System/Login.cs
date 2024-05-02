@@ -27,10 +27,25 @@ namespace Hotel_Reservation_Management_System
             adapter.Fill(dt);
             if (dt.Rows[0][0].ToString() == "1")
             {
-                MessageBox.Show("Login successful, welcome master");
+                MessageBox.Show("Login successful, welcome master", "Login success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 Hide();
-                HomePage home = new HomePage();
-                home.Show();
+                // Check user role and redirect accordingly
+                SqlCommand cmd = new SqlCommand("SELECT Role FROM [User] WHERE Username = '" + UsernameTxtBox.Text + "'", connection);
+                string? userRole = cmd.ExecuteScalar().ToString();
+
+                if (userRole == "User")
+                {
+                   User_Dashboard user_Dashboard = new User_Dashboard();
+                   user_Dashboard.Show();
+
+                }
+                else if (userRole == "Admin")
+                {
+                   Admin_Dash admin_Dash = new Admin_Dash();
+                   admin_Dash.Show();
+                }
+
+                connection.Close();
             }
             else if (UsernameTxtBox.Text == "" && PasswordTxtBox.Text == "")
             {

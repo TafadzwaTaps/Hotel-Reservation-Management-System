@@ -6,5 +6,10 @@ namespace Hotel_Reservation_Management_System
         {
             InitializeComponent();
         }
+
+        private void HomePage_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

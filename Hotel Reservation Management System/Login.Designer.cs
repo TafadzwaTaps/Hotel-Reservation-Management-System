@@ -38,7 +38,6 @@
             label2 = new Label();
             label1 = new Label();
             UsernameTxtBox = new TextBox();
-            progressBar1 = new ProgressBar();
             LoginBtn = new Button();
             PasswordTxtBox = new TextBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -65,7 +64,6 @@
             panel2.Controls.Add(label2);
             panel2.Controls.Add(label1);
             panel2.Controls.Add(UsernameTxtBox);
-            panel2.Controls.Add(progressBar1);
             panel2.Controls.Add(LoginBtn);
             panel2.Controls.Add(PasswordTxtBox);
             panel2.Location = new Point(571, 77);
@@ -77,7 +75,7 @@
             // 
             checkBox1.AutoSize = true;
             checkBox1.Font = new Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            checkBox1.Location = new Point(237, 227);
+            checkBox1.Location = new Point(238, 248);
             checkBox1.Name = "checkBox1";
             checkBox1.Size = new Size(148, 27);
             checkBox1.TabIndex = 9;
@@ -90,7 +88,7 @@
             linkLabel1.AutoSize = true;
             linkLabel1.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             linkLabel1.LinkColor = Color.Black;
-            linkLabel1.Location = new Point(301, 391);
+            linkLabel1.Location = new Point(291, 379);
             linkLabel1.Name = "linkLabel1";
             linkLabel1.Size = new Size(70, 25);
             linkLabel1.TabIndex = 8;
@@ -101,7 +99,7 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI", 12F);
-            label4.Location = new Point(78, 388);
+            label4.Location = new Point(68, 376);
             label4.Name = "label4";
             label4.Size = new Size(217, 28);
             label4.TabIndex = 7;
@@ -111,7 +109,7 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 12F);
-            label3.Location = new Point(67, 223);
+            label3.Location = new Point(68, 244);
             label3.Name = "label3";
             label3.Size = new Size(158, 28);
             label3.TabIndex = 6;
@@ -121,7 +119,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 12F);
-            label2.Location = new Point(67, 119);
+            label2.Location = new Point(68, 140);
             label2.Name = "label2";
             label2.Size = new Size(93, 28);
             label2.TabIndex = 5;
@@ -131,7 +129,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 12F);
-            label1.Location = new Point(64, 14);
+            label1.Location = new Point(65, 35);
             label1.Name = "label1";
             label1.Size = new Size(99, 28);
             label1.TabIndex = 4;
@@ -140,23 +138,16 @@
             // UsernameTxtBox
             // 
             UsernameTxtBox.Font = new Font("Segoe UI", 12F);
-            UsernameTxtBox.Location = new Point(67, 60);
+            UsernameTxtBox.Location = new Point(68, 81);
             UsernameTxtBox.Multiline = true;
             UsernameTxtBox.Name = "UsernameTxtBox";
             UsernameTxtBox.Size = new Size(315, 42);
             UsernameTxtBox.TabIndex = 0;
             // 
-            // progressBar1
-            // 
-            progressBar1.Location = new Point(67, 354);
-            progressBar1.Name = "progressBar1";
-            progressBar1.Size = new Size(315, 23);
-            progressBar1.TabIndex = 3;
-            // 
             // LoginBtn
             // 
             LoginBtn.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            LoginBtn.Location = new Point(67, 277);
+            LoginBtn.Location = new Point(68, 298);
             LoginBtn.Name = "LoginBtn";
             LoginBtn.Size = new Size(315, 56);
             LoginBtn.TabIndex = 2;
@@ -167,7 +158,7 @@
             // PasswordTxtBox
             // 
             PasswordTxtBox.Font = new Font("Segoe UI", 12F);
-            PasswordTxtBox.Location = new Point(67, 164);
+            PasswordTxtBox.Location = new Point(68, 185);
             PasswordTxtBox.Multiline = true;
             PasswordTxtBox.Name = "PasswordTxtBox";
             PasswordTxtBox.PasswordChar = '*';
@@ -202,7 +193,6 @@
         private Label label2;
         private Label label1;
         private TextBox UsernameTxtBox;
-        private ProgressBar progressBar1;
         private Button LoginBtn;
         private TextBox PasswordTxtBox;
         private CheckBox checkBox1;
