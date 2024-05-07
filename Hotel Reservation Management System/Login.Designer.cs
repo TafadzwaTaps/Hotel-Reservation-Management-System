@@ -47,9 +47,9 @@
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(30, 77);
+            pictureBox1.Location = new Point(12, 12);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(504, 456);
+            pictureBox1.Size = new Size(662, 696);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 8;
             pictureBox1.TabStop = false;
@@ -66,7 +66,7 @@
             panel2.Controls.Add(UsernameTxtBox);
             panel2.Controls.Add(LoginBtn);
             panel2.Controls.Add(PasswordTxtBox);
-            panel2.Location = new Point(571, 77);
+            panel2.Location = new Point(765, 145);
             panel2.Name = "panel2";
             panel2.Size = new Size(462, 456);
             panel2.TabIndex = 7;
@@ -74,10 +74,10 @@
             // checkBox1
             // 
             checkBox1.AutoSize = true;
-            checkBox1.Font = new Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            checkBox1.Location = new Point(238, 248);
+            checkBox1.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            checkBox1.Location = new Point(304, 239);
             checkBox1.Name = "checkBox1";
-            checkBox1.Size = new Size(148, 27);
+            checkBox1.Size = new Size(132, 24);
             checkBox1.TabIndex = 9;
             checkBox1.Text = "Show Password";
             checkBox1.UseVisualStyleBackColor = true;
@@ -86,11 +86,12 @@
             // linkLabel1
             // 
             linkLabel1.AutoSize = true;
-            linkLabel1.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            linkLabel1.LinkColor = Color.Black;
-            linkLabel1.Location = new Point(291, 379);
+            linkLabel1.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            linkLabel1.ForeColor = SystemColors.ActiveCaptionText;
+            linkLabel1.LinkColor = Color.Red;
+            linkLabel1.Location = new Point(286, 379);
             linkLabel1.Name = "linkLabel1";
-            linkLabel1.Size = new Size(70, 25);
+            linkLabel1.Size = new Size(57, 20);
             linkLabel1.TabIndex = 8;
             linkLabel1.TabStop = true;
             linkLabel1.Text = "SignUp";
@@ -98,20 +99,20 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Font = new Font("Segoe UI", 12F);
-            label4.Location = new Point(68, 376);
+            label4.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label4.Location = new Point(115, 379);
             label4.Name = "label4";
-            label4.Size = new Size(217, 28);
+            label4.Size = new Size(165, 20);
             label4.TabIndex = 7;
             label4.Text = "Are you not a member?";
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Font = new Font("Segoe UI", 12F);
-            label3.Location = new Point(68, 244);
+            label3.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label3.Location = new Point(34, 240);
             label3.Name = "label3";
-            label3.Size = new Size(158, 28);
+            label3.Size = new Size(118, 20);
             label3.TabIndex = 6;
             label3.Text = "Forgot Password";
             // 
@@ -119,7 +120,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 12F);
-            label2.Location = new Point(68, 140);
+            label2.Location = new Point(40, 141);
             label2.Name = "label2";
             label2.Size = new Size(93, 28);
             label2.TabIndex = 5;
@@ -129,7 +130,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 12F);
-            label1.Location = new Point(65, 35);
+            label1.Location = new Point(34, 36);
             label1.Name = "label1";
             label1.Size = new Size(99, 28);
             label1.TabIndex = 4;
@@ -138,18 +139,18 @@
             // UsernameTxtBox
             // 
             UsernameTxtBox.Font = new Font("Segoe UI", 12F);
-            UsernameTxtBox.Location = new Point(68, 81);
+            UsernameTxtBox.Location = new Point(34, 81);
             UsernameTxtBox.Multiline = true;
             UsernameTxtBox.Name = "UsernameTxtBox";
-            UsernameTxtBox.Size = new Size(315, 42);
+            UsernameTxtBox.Size = new Size(402, 42);
             UsernameTxtBox.TabIndex = 0;
             // 
             // LoginBtn
             // 
             LoginBtn.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            LoginBtn.Location = new Point(68, 298);
+            LoginBtn.Location = new Point(34, 298);
             LoginBtn.Name = "LoginBtn";
-            LoginBtn.Size = new Size(315, 56);
+            LoginBtn.Size = new Size(402, 56);
             LoginBtn.TabIndex = 2;
             LoginBtn.Text = "Login";
             LoginBtn.UseVisualStyleBackColor = true;
@@ -158,11 +159,11 @@
             // PasswordTxtBox
             // 
             PasswordTxtBox.Font = new Font("Segoe UI", 12F);
-            PasswordTxtBox.Location = new Point(68, 185);
+            PasswordTxtBox.Location = new Point(34, 185);
             PasswordTxtBox.Multiline = true;
             PasswordTxtBox.Name = "PasswordTxtBox";
             PasswordTxtBox.PasswordChar = '*';
-            PasswordTxtBox.Size = new Size(315, 40);
+            PasswordTxtBox.Size = new Size(402, 40);
             PasswordTxtBox.TabIndex = 1;
             // 
             // Login
@@ -170,12 +171,14 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Tan;
-            ClientSize = new Size(1067, 591);
+            ClientSize = new Size(1366, 720);
             Controls.Add(pictureBox1);
             Controls.Add(panel2);
             FormBorderStyle = FormBorderStyle.None;
             Name = "Login";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Login";
+            WindowState = FormWindowState.Maximized;
             Load += Login_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             panel2.ResumeLayout(false);
